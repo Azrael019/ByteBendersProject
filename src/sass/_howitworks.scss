@@ -66,6 +66,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 389px;
+    height: 128px;
     border-radius: 20px;
     padding: 20px;
     margin-top: 44px;
@@ -79,8 +80,11 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: -0.72;
+    letter-spacing: -0.72px;
     text-align: center;
+    align-self: center;
+    height: 48px;
+        width: 136px;
 }
 .step-how {
     color: var(--fill-black);
@@ -95,26 +99,27 @@ body {
 .first-step h3 {
     background-color: var(--Primary-color);
     border-radius: 200px;
-    padding: 15px 42px;
+    padding: 13px 30px;
     margin-right: 14px;
-    height: 24px;
-    width: 100px;
+    height: 48px;
+    width: 136px;
+ 
 }
 .second-step h3 {
     background-color: var(--fill-fresh);
     border-radius: 200px;
-    padding: 15px 42px;
+    padding: 12px 10px;
     margin-right: 14px;
-    height: 24px;
-    width: 120px;
+    height: 48px;
+    width: 136px;
 }
 .third-step h3 {
     background-color: var(--fill-yellow);
     border-radius: 200px;
-    padding: 15px 42px;
+    padding: 13px 10px;
     margin-right: 14px;
-    height: 24px;
-    width: 100px;
+    height: 48px;
+    width: 136px;
 }
 .gif-image {
     display: flex;
