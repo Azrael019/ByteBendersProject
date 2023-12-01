@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Raleway:wght@800&display=swap');
+:root {
+    --Primary-color: #AE1332;
+    --fill-black: #000;
+    --fill-fresh: #A4CB66;
+    --fill-yellow: #F5CE13;
+    --fill-Pure: #FFF;
+    --straberry: #F8766B;
+    --banana: #EDD251;
+    --watermelon: #9DC262;
+    --lime: #BFD663;
+    --apple: #E93F29;
+    --peach: #DB4F4B;
+    --plums: #9B5366;
+    --orange: #F47F4C;
+    --kiwi: #98B37E;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--Primary-color);
+}
+.how-to-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.to-order-title {
+    color: var(--fill-Pure);
+    text-align: center;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 150px;
+    padding-bottom: 14px;
+}
+.h2-paragraph {
+    width: 509px;
+    color: var(--fill-Pure);
+    text-align: center;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+    margin-top: 0;
+}
+.how .to-order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.first-step,
+.second-step,
+.third-step {
+    background-color: var(--fill-Pure);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 389px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 44px;
+}
+.to-order li {
+    list-style: none;
+}
+.step {
+    color: var(--fill-Pure);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.72;
+    text-align: center;
+}
+.step-how {
+    color: var(--fill-black);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.56px;
+    width: 166px;
+}
+.first-step h3 {
+    background-color: var(--Primary-color);
+    border-radius: 200px;
+    padding: 15px 42px;
+    margin-right: 14px;
+    height: 24px;
+    width: 100px;
+}
+.second-step h3 {
+    background-color: var(--fill-fresh);
+    border-radius: 200px;
+    padding: 15px 42px;
+    margin-right: 14px;
+    height: 24px;
+    width: 120px;
+}
+.third-step h3 {
+    background-color: var(--fill-yellow);
+    border-radius: 200px;
+    padding: 15px 42px;
+    margin-right: 14px;
+    height: 24px;
+    width: 100px;
+}
+.gif-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+    margin-top: 80px;
+}
+.gif-main-image {
+    /* background: url(https://s3-alpha-sig.figma.com/img/b08c/27c6/d1b10426e78244d4ff8987ecdcfb2d54?Expires=1702252800&Signature=qWWZLXFFvfRi5qD0NHNT0oPEDMNmQJsmMwJ0srRtMRNQFGabQfozqb41mPGP53oN1QN5A2NFABcHOnZEzR7x6kGTaXATO-9X8lM10jTX-GyqKM0laatkwAEmvHwMiOwmjmTEqbdjh3I3ON5O5xN8dIXf6nAQNBI8MD1Cn3RYBpKjhZCZslLQycYeSNmQRYWVFTnos37hZ-bOtRIaz8IL5nTgrUq4wRn5b4YGRuwQL2ThWEgbnCQwUgJQbj1PA5fkKDS3DtfXn-yZdoxBCFJ--pMLyB5h5w4O~JfGtdzICDoxjdqewjReHIsKwgu4ybiQNie6yhy8kClZ1munDL5VmA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4), lightgray 0px -2.437px / 100% 101.864% no-repeat; */
+    border-radius: 20px;
+}
