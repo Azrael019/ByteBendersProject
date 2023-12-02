@@ -100,3 +100,20 @@
     line-height: 24px;
     letter-spacing: -0.36px;
 }
+
+                    /*MEDIA QUERIES*/
+@media (min-width: 375px) {
+    .container {
+        width: 375px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+@media (min-width: 1280px) {
+    .container {
+        width: 1280px;
+    }
+}
