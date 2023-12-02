@@ -52,7 +52,24 @@
 }
 
 /* SOCIALS STYLING */
-.contact-number {
+.footer-socials {
+    margin-left: 1064px;
+    margin-top: -80px;
+}
+
+.footer-social-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.footer-social-items svg {
+    border-radius: 10px;
+    border: 1px solid #AE1332;
+}
+
+.footer-contact-number {
     text-decoration: none;
     color: #AE1332;
     font-family: DM Sans;
@@ -61,9 +78,11 @@
     font-weight: 400;
     line-height: 24px;
     text-transform: uppercase;
+    padding-bottom: 20px;
+    margin-left: 1064px;
 }
 
-.address {
+.footer-address {
     color: #AE1332;
     font-family: DM Sans;
     font-size: 18px;
@@ -71,4 +90,5 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.36px;
+    margin-left: 1064px;
 }
