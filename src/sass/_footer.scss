@@ -38,7 +38,6 @@
     gap: 20px;
     //margin-left: 624px;
     margin-top: 164px;
-
 }
 
 .footer-list-items {
@@ -113,14 +112,14 @@
         width: 768px;
     }
 
-    /*.footer-list {
-        gap: 20px;
+    .footer-logo {
+        padding-left: 97px;
+    }
+
+    .footer-list {
         margin-top: 377px;
-        text-decoration: none;
-        list-style: none;
-        display: flex;
-        margin-left: -390px;
-    }*/
+        margin-left: -346px;
+    }
 
     .footer-social-items {
         margin-top: 30px;
@@ -134,5 +133,14 @@
 
     .footer-logo svg {
         margin-left: -30px;
+    }
+
+    .footer-list {
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        gap: 20px;
+        margin-left: 60px;
+        margin-top: 164px;
     }
 }
