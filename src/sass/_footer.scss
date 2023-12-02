@@ -1,4 +1,36 @@
+/* GENERAL STYLING */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* LOGO + IMAGE STYLING */
+
+.footer-image {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 32px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 128.5px;
+}
+
+.footer-name {
+    color: #AE1332;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+}
+
 
 /* MENU-NAV STYLING */
 .footer-list {
