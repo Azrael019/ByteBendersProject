@@ -89,6 +89,8 @@
     line-height: 24px;
     text-transform: uppercase;
     padding-bottom: 20px;
+
+    margin-left: 45px;
 }
 
 .footer-address {
@@ -99,17 +101,14 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.36px;
+
+    margin-left: 45px;
 }
 
                     /*MEDIA QUERIES*/
 @media (min-width: 375px) {
     .container {
         width: 375px;
-    }
-
-     .footer-section {
-        display: inline;
-        text-align: center;
     }
 
     .footer-image {
@@ -151,7 +150,7 @@
 
     .footer-list {
         margin-top: 377px;
-        margin-left: -405px;
+        margin-left: -381px;
     }
 
     .footer-social-items {
