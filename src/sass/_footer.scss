@@ -107,10 +107,16 @@
         width: 375px;
     }
 
+    .footer-section {
+        display: block;
+        text-align: center;
+    }
+
     .footer-image {
         width: 335px;
         height: 172px;
         margin-left: 4.5px;
+        margin-top: 80px;
     }
 
     .footer-logo {
@@ -118,7 +124,19 @@
     }
 
     .footer-list {
-        margin-left: auto;
+        margin-top: 10px;
+        margin-left: 28px;
+    }
+
+    .footer-social-list {
+        margin-top: -30px;
+        display: flex;
+        justify-content: center;
+        margin-left: 45px;
+    }
+
+    .footer-address {
+        padding-bottom: 80px;
     }
 }
 
