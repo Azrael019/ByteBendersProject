@@ -106,6 +106,20 @@
     .container {
         width: 375px;
     }
+
+    .footer-image {
+        width: 335px;
+        height: 172px;
+        margin-left: 4.5px;
+    }
+
+    .footer-logo {
+        margin-left: -35px;
+    }
+
+    .footer-list {
+        margin-left: auto;
+    }
 }
 
 @media (min-width: 768px) {
@@ -114,7 +128,7 @@
     }
 
     .footer-logo {
-        padding-left: 97px;
+        //padding-left: 97px;
     }
 
     .footer-list {
@@ -133,7 +147,8 @@
     }
 
     .footer-logo {
-        padding-left: 125px;
+        //padding-left: 125px;
+        margin-left: 25px;
     }
 
     .footer-logo svg {
