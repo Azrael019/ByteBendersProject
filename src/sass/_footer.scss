@@ -6,6 +6,11 @@
     margin-right: auto;
 }
 
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
                     /* LOGO + IMAGE STYLING */
 .footer-image {
     margin-top: 80px;
@@ -52,10 +57,6 @@
 }
 
                     /* SOCIALS STYLING */
-.footer-section {
-    display: flex;
-    justify-content: space-between;
-}
 
 .footer-socials {
     margin-top: 80px;
@@ -118,7 +119,7 @@
 
     .footer-list {
         margin-top: 377px;
-        margin-left: -346px;
+        margin-left: -405px;
     }
 
     .footer-social-items {
