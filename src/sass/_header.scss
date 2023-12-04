@@ -1,27 +1,32 @@
 /*HEADER STYLING*/
-.header {
-    width: 1280px;
-    height: 50px;
-}
+@media screen and (min-width: 1280px){
 
-.header-container {
-    display: flex;
-    align-content: center;
+    .header {
+        min-width: 1280px;
+        height: 50px;
+       
+    }
+    
+    .header-container {
+        display: flex;
+        align-content: center;
+        justify-content: center;
     padding: auto;
+    background-color: #fff;
 }
 
 .menu {
     list-style: none;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     gap: 20px
 }
 
-.header-menu {
-    display: flex;
-    align-items: center;
-}
+// .header-menu {
+//     display: flex;
+//     align-items: center;
+// }
 
 .menu .li-menu .a-menu {
     text-decoration: none;
@@ -38,7 +43,7 @@
 
 .header-logo {
     display: flex;
-    align-items: center;
+    align-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
@@ -60,8 +65,13 @@
     text-transform: uppercase;
 }
 
-.uilcart {
-    margin-top: 11px;
-    margin-bottom: 11px;
+.cart {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
+
+
+
 /*END OF HEADER STYLING*/
+}
