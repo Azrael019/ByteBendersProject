@@ -65,11 +65,17 @@
     text-transform: uppercase;
 }
 
-.cart {
+.uilcart {
     display: flex;
     justify-content: center;
     align-content: center;
     margin-right: 32px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    
 }
 
 

@@ -4,6 +4,7 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #fff;
 }
 
 .footer-section {
@@ -177,7 +178,7 @@
 
 @media (min-width: 1280px) {
     .container {
-        width: 1280px;
+        min-width: 1280px;
     }
 
     
