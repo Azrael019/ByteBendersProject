@@ -54,8 +54,8 @@
 }
 
 .fruit {
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
+    // flex-wrap: wrap;
 
     justify-content: center;
     background-color: #AE1332;
@@ -71,7 +71,7 @@
     height: fixed 502px;
     border-radius: 20px;
     border: 20px 20px;
-    background: url("../images/honeydew.png"), lightgray 50% / cover no-repeat;
+    // background: url("../images/honeydew.png"), lightgray 50% / cover no-repeat;
 
 }
 
@@ -79,7 +79,7 @@
     width: fixed 400px;
     height: fixed 502px;
     border-radius: 20px;
-    background: url("../images/blueberry.png"), lightgray 50% / cover no-repeat;
+    // background: url("../images/blueberry.png"), lightgray 50% / cover no-repeat;
     border: 20px 20px;
 
 }
