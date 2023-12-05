@@ -370,7 +370,7 @@
 }
 
 .left-fruit>p {
-    padding-bottom: 61px;
+    padding-bottom: 35px;
     margin: 0;color: #fff;
         text-shadow: 0 4px 70px #0000001a;
         font-family: DM Sans;
@@ -463,7 +463,7 @@
     border-radius: 500px;
     border: 1px solid transparent;
     background: linear-gradient(180deg, #AE1332 30%, white) border-box;
-    // -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: destination-out;
     mask-composite: exclude;
 }
@@ -537,7 +537,7 @@
 }
 
 .right-fruit>p {
-    padding-bottom: 19px;
+    padding-bottom: 5px;
     margin: 0;
         // color: #fff;
         //     text-shadow: 0 4px 70px #0000001a;
