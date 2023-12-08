@@ -1,25 +1,38 @@
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
-    <button class="modal-close-btn" data-modal-close>
-      <svg>
-        <use href="./images/icons.svg#redclose"></use>
-      </svg>
-    </button>
+    <div class="modalbtn">
+      <button class="modal-close-btn" data-modal-close>
+        <svg class="redx">
+          <use href="./images/icons.svg#redclose" width="28" height="28"></use>
+        </svg>
+      </button>
+    </div>
 
     <h4 class="modalheader">Your Order</h4>
 
     <div class="basketcontainer">
       <div class="strawberrybasket basket">
-        <h5>Strawberry Basket</h5>
-        <h6>Plant</h6>
+        <label class="checkcontainer">
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+        </label>
+
+        <h5 class="basket-fruit">Strawberry Basket</h5>
+        <h6 class="basketplant">Plant</h6>
+        <img
+          class="basketpic"
+          src="./images/strawberrybasket.png"
+          width="173"
+          height="196"
+        />
       </div>
       <div class="applebasket basket">
-        <h5>Apple Basket</h5>
-        <h6>Plant</h6>
+        <h5 class="basket-fruit">Apple Basket</h5>
+        <h6 class="basketplant">Plant</h6>
       </div>
       <div class="fruitbasket basket">
-        <h5>Fruits Basket</h5>
-        <h6>Plant</h6>
+        <h5 class="basket-fruit">Fruits Basket</h5>
+        <h6 class="basketplant">Plant</h6>
       </div>
     </div>
 

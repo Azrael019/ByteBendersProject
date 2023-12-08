@@ -3,6 +3,7 @@
     height: 911px;
    border-style: dashed;
     border-radius: 20px;
+    background: #fff;
     }
 
 .modal-close-btn {
@@ -12,6 +13,7 @@
     color: #AE1332;
     border: none;
     background-color: #fff;
+    padding: 0;
 }
 
 
@@ -26,6 +28,8 @@
     /* 110% */
     letter-spacing: -1.6px;
     text-transform: uppercase;
+    width: 232px;
+    height: 44px;
 }
 
 .basket {
@@ -35,6 +39,50 @@
     border-radius: 20px;
 }
 
+.strawberrybasket {
+    border-radius: 20px;
+    background: #F8766B;
+}
+
+.checkcontainer {
+    width: 20px;
+    height: 20px;
+    color:#fff;
+    border-radius: 5px;
+    border-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 14px;
+    margin-left: 223px;
+    
+}
+
+.checkbox {
+    border-color: #fff;
+}
+
+.basket-fruit {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 116.667% */
+    letter-spacing: -0.96px;
+}
+
+.basketplant {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+}
 
 
 
@@ -45,18 +93,65 @@
 
 
 
+@media screen and (min-width: 1280px) {
 
+.modalbtn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 28px;
+    margin-right: 28px;
+   
+}
+
+.modalheader {
+    margin-left: 40px;
+    margin-top: 0px;
+}
 
 
 .basketcontainer {
     display: flex;
+    box-sizing: border-box;
+    gap: 20px;
 }
 
-
-
-
-
-
-.basket {
+.basket-fruit {
     display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-bottom: 0px;
 }
+
+.basketplant {
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.basketpic {
+    justify-self: center;
+    margin-left: 42px;
+    margin-bottom: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
