@@ -1,11 +1,12 @@
 .modal {
     width: 891px;
     height: 925px;
-   border-style: dashed;
+   border-style: none;
     border-radius: 20px;
     background: #fff;
     margin-left: 40px;
     position:relative;
+    bottom: 30px;
     z-index: 9999;
     }
 
@@ -123,6 +124,8 @@
     border-radius: 100px;
     border: 1px solid #000;
     opacity: 0.3;
+    padding-left: 20px;
+  
 }
 
 .service-input-textarea {
@@ -132,6 +135,7 @@
     border-radius: 20px;
     border: 1px solid #000;
     opacity: 0.3;
+    padding-left: 20px;
 }
 
 
