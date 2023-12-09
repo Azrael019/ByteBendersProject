@@ -210,17 +210,40 @@
 /*MOBILE STYLING*/
 
     .js-menu-container {
-        width: 375px;
+        min-width: 100vw;
         height: 812px;
     }
 
     .fh-logo {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        width: 100vw;
         margin-left: 20px;
+        // margin-left: 0;
+        // margin-right: auto;
+    }
+
+    .js-close-menu {
+        justify-content: end;
     }
 
     .close-btn {
         margin-right: 13px;
+        }
+
+    .mobilemenucontainer {
+        width: 100vw;
+        background: #FFF;
+       
+        display: flex;
+        justify-content: space-around;
+        gap: 155px;
+       
     }
+
+
+
 
     .mobile-menu-container {
         display: block;
@@ -228,8 +251,11 @@
         justify-content: space-around;
     }
 
+
+
+
     .mobile-menu {
-        display: bock;
+        display: block;
         position: fixed;
         top: 0;
         transform: translateX(100%);
@@ -247,16 +273,17 @@
     }
 
     .js-close-menu {
-        width: 375px;
-        height: 50px;
-        background: #FFF;
+  
+        width: 24px;
+        height: 24px;
+        background: transparent;
         border: none;
         display: flex;
-        align-items: center;
+        justify-content: center;
     }
 
     .mobile-navbar {
-        width: 375px;
+        width: 100vw;
         margin-top: 124px;
         margin-bottom: 508;
     }
@@ -271,8 +298,8 @@
 
     .mobile-menu-list {
         list-style: none;
-        display: flex;
-        flex-direction: column;
+        // display: flex;
+        // flex-direction: column;
         letter-spacing: -0.56px;
     }
 

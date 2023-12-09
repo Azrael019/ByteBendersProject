@@ -72,6 +72,13 @@
     padding-left: 0;
 }
 
+.footer-social-items:hover,
+.footer-social-items:focus {
+    cursor: pointer;
+    transform: scale(1.05)
+
+}
+
 .footer-social-items svg {
     border-radius: 10px;
     border: 1px solid #AE1332;
