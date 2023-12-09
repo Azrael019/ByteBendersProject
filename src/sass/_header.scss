@@ -97,8 +97,11 @@
 
 .cart {
     display: flex;
-    align-items: center;
-   
+    align-items: center; 
+}
+
+.cioncontainer {
+    display: none;
 }
 
  .js-menu-container {
@@ -154,6 +157,10 @@
         display: flex;
         align-items: center;
     }
+
+    .cioncontainer {
+        display: none;
+    }
     
     .js-menu-container {
         display: none;
@@ -192,15 +199,20 @@
         margin-right: auto;
     }
 
-    .uilcart {
+    .cion {
         display: flex;
         justify-content: flex-end;
         align-content: center;
         margin-right: 32px;
         margin-left: auto;
+        margin-top: 10px;
     }
 
     .cart {
+        display: none;
+    }
+
+    .cioncontainer {
         display: flex;
         align-items: center;
     }
@@ -225,6 +237,7 @@
     }
 
     .js-close-menu {
+        // margin-top: 10px;
         justify-content: end;
     }
 
@@ -239,20 +252,13 @@
         display: flex;
         justify-content: space-around;
         gap: 155px;
-       
     }
-
-
-
 
     .mobile-menu-container {
         display: block;
         align-items: center;
         justify-content: space-around;
     }
-
-
-
 
     .mobile-menu {
         display: block;
